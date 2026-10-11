@@ -9,7 +9,7 @@ of that (not `lnav`'s SQL-query-over-logs feature — see Scope below).
 
 ```bash
 logview /var/log/myapp.log
-logview apps/roasted/*.log apps/confide/*.log     # merged, sorted by timestamp where parseable
+logview apps/roasted/*.log apps/split/*.log     # merged, sorted by timestamp where parseable
 logview --filter 'ERROR|WARN' --level warn app.log
 ```
 
