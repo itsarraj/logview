@@ -5,6 +5,12 @@ powerful TUI) has no serious Rust competitor despite `ratatui` being a
 mature, popular library. `logview` covers the tail/filter/multi-source core
 of that (not `lnav`'s SQL-query-over-logs feature — see Scope below).
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
